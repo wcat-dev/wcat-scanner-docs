@@ -1,18 +1,18 @@
 ---
-description: Learn how to deploy the A11yWatch lite platform on any machine. 
+description: Learn how to deploy the WCAT-Scanner lite platform on any machine. 
 id: deployment
 title: Deployment
 ---
 
-Deploy all things A11yWatch Lite on your own servers.
+Deploy all things WCAT-Scanner Lite on your own servers.
 
 ## Getting Started
 
-The quickest way to deploy the suite on the server is to install the `A11yWatch` CLI by running `cargo install a11ywatch_cli` on the server or in a Dockerfile and run the `a11ywatch start` command either in `CMD` or as a sidecar on your instance.
+The quickest way to deploy the suite on the server is to install the `WCAT-Scanner` CLI by running `cargo install wcat_cli` on the server or in a Dockerfile and run the `a11ywatch start` command either in `CMD` or as a sidecar on your instance.
 
 ## Docker
 
-Another simple way to deploy is to use the [@a11ywatch/a11ywatch](https://hub.docker.com/r/a11ywatch/a11ywatch) docker image. By the default the main entry to the graphQL, and gRPC server starts on port 3280.
+Another simple way to deploy is to use the [@wcat/a11ywatch](https://hub.docker.com/r/a11ywatch/a11ywatch) docker image. By the default the main entry to the graphQL, and gRPC server starts on port 3280.
 
 ## CLI
 
@@ -39,12 +39,12 @@ sudo curl -L https://github.com/docker/compose/releases/latest/download/docker-c
 sudo curl https://sh.rustup.rs -sSf | sh -s -- -y
 # configure shell to use new rust path
 $HOME/.cargo/env
-# install a11ywatch
-cargo install a11ywatch_cli
-# start a11ywatch
-a11ywatch start
+# install wcat
+cargo install wcat_cli
+# start wcat
+wcat start
 # run scan on website this works internally on the container too
-a11ywatch scan --url https://a11ywatch.com --save
+wcat scan --url https://wcat.dev --save
 ```
 
 Make sure to update your security groups to allow inbound traffic on port `3280` for the API instance.

@@ -1,11 +1,11 @@
 ---
-description: The A11yWatch CDN service built to store the fixes for pages.
+description: The WCAT-Scanner CDN service built to store the fixes for pages.
 id: cdn-server
 title: CDN Server
 sidebar_label: CDN Server
 ---
 
-[View Repo](https://github.com/a11ywatch/elastic-cdn)
+[View Repo](https://github.com/wcat/elastic-cdn)
 
 The CDN server is used for storing scripts and images of websites. It also backs up content to AWS S3.
 

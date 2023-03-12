@@ -1,5 +1,5 @@
 ---
-description: The main services that make up A11yWatch Lite. Learn how each one works and how to make the most of it.
+description: The main services that make up WCAT-Scanner Lite. Learn how each one works and how to make the most of it.
 id: services
 title: Services
 sidebar_label: Services
@@ -9,7 +9,7 @@ View micro-service details on purpose and port entry below.
 
 All of the services use [gRPC](https://grpc.io/) to communicate except the primary API allows REST, Graphql, and gRPC entrypoints.
 
-The only service that is exposed outside to connections is the `web` service which is the front-end application and the central gateway `api` in production. Use the [central repo](https://github.com/A11yWatch/a11ywatch) in order to run all of the services together through docker or the [sidecar](https://github.com/A11yWatch/sidecar).
+The only service that is exposed outside to connections is the `web` service which is the front-end application and the central gateway `api` in production. Use the [central repo](https://github.com/WCAT-Scanner/wcat) in order to run all of the services together through docker or the [sidecar](https://github.com/A11yWatch/sidecar).
 
 | Service                                             | Container Purpose                                | Default Port     |
 | --------------------------------------------------- | ------------------------------------------------ | ---------------- |
@@ -20,4 +20,4 @@ The only service that is exposed outside to connections is the `web` service whi
 | [crawler](/documentation/crawler)                   | website crawler and indexer                      | 50055            |
 | [mongodb](https://www.mongodb.com)                  | core database                                    | 27017            |
 | [redis](https://www.redis.com)                      | memory database                                  | 6379             |
-| [chrome](https://github.com/a11ywatch/chrome)       | google chrome launched via `tini`                | 9222             |
+| [chrome](https://github.com/wcat/chrome)       | google chrome launched via `tini`                | 9222             |

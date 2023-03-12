@@ -8,24 +8,24 @@ This document describes how to create a badge that displays your project’s bui
 
 ## Adding Status Badges
 
-Status badges are commonly embedded in project READMEs, although they can be placed in any web document. A11yWatch provides a tool to generate embed code for status badges. By default, a badge displays the status of a project’s accessibility score.
+Status badges are commonly embedded in project READMEs, although they can be placed in any web document. WCAT-Scanner provides a tool to generate embed code for status badges. By default, a badge displays the status of a project’s accessibility score.
 
 ## Generating a status badge
 
 To generate your own status badge, you will need to know and substitute the following variables in the code snippets below:
 
-`<DOMAIN_NAME>` - Your domains name. Example: a11ywatch.com
+`<DOMAIN_NAME>` - Your domains name. Example: wcat.dev
 
 mardown:
 
 ```markdown
-[![A11yWatch](https://api.a11ywatch.com/status/a11ywatch.com)](https://a11ywatch.com/reports/a11ywatch.com)
+[![WCAT-Scanner](https://api.wcat.dev/status/wcat.com)](https://a11ywatch.com/reports/a11ywatch.com)
 ```
 
 html:
 
 ```html
-<a href="https://a11ywatch.com/reports/a11ywatch.com"
-  ><img src="https://api.a11ywatch.com/status/a11ywatch.com"
+<a href="https://wcat.dev/reports/wcat.com"
+  ><img src="https://api.wcat.dev/status/wcat.com"
 /></a>
 ```

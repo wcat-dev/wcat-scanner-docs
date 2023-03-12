@@ -1,21 +1,21 @@
 module.exports = {
-  title: "A11yWatch Docs",
-  tagline: "Learn how to consume, build, and deploy with A11yWatch.",
-  url: "https://docs.a11ywatch.com",
+  title: "WCAT-Scanner Docs",
+  tagline: "Learn how to consume, build, and deploy with WCAT-Scanner.",
+  url: "https://docs.wcat.dev",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "a11ywatch",
+  organizationName: "wcat-org",
   projectName: "docs",
   trailingSlash: true,
   themeConfig: {
     navbar: {
-      title: "A11yWatch",
+      title: "WCAT-Scanner",
       logo: {
-        alt: "A11yWatch Logo",
+        alt: "WCAT-Scanner Logo",
         src: "img/logo.svg",
-        style: { background: 'transparent' },
+        style: { background: "transparent" },
       },
       items: [
         {
@@ -25,7 +25,7 @@ module.exports = {
           position: "left",
         },
         {
-          href: "https://github.com/a11ywatch/a11ywatch",
+          href: "https://github.com/wcat-org/wcat-scanner-docs",
           label: "GitHub",
           position: "right",
         },
@@ -52,7 +52,7 @@ module.exports = {
           items: [
             {
               label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/a11ywatch",
+              href: "https://stackoverflow.com/questions/tagged/wcat-scanner",
             },
             {
               label: "Discord",
@@ -60,7 +60,7 @@ module.exports = {
             },
             {
               label: "Twitter",
-              href: "https://twitter.com/a11ywatcher",
+              href: "https://twitter.com/wcat-org",
             },
           ],
         },
@@ -69,16 +69,16 @@ module.exports = {
           items: [
             {
               label: "Blog",
-              href: "https://a11ywatch.blog",
+              href: "https://blog.wcat.dev",
             },
             {
               label: "GitHub",
-              href: "https://github.com/a11ywatch/a11ywatch",
+              href: "https://github.com/wca-org/wcat-scanner-docs",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} A11yWatch, LLC.`,
+      copyright: `Copyright © ${new Date().getFullYear()} WCAT-Scanner`,
     },
   },
   presets: [
@@ -88,11 +88,11 @@ module.exports = {
         docs: {
           routeBasePath: "documentation",
           sidebarPath: require.resolve("./src/sidebars.js"),
-          editUrl: "https://github.com/a11ywatch/docs/edit/main",
+          editUrl: "https://github.com/wcat-org/wcat-scanner-docs/edit/main",
         },
         blog: {
           showReadingTime: true,
-          editUrl: "https://github.com/a11ywatch/docs/edit/main",
+          editUrl: "https://github.com/wcat-org/wcat-scanner-docs/edit/main",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),

@@ -1,10 +1,10 @@
 ---
 id: mav
 title: Mav
-description: The A11yWatch image classification service using machine learning and AI.
+description: The WCAT-Scanner image classification service using machine learning and AI.
 ---
 
-[View Repo](https://github.com/a11ywatch/mav)
+[View Repo](https://github.com/wcat/mav)
 
 The Mav image classification service uses [Computer Vision](https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/#overview) for [OCR](https://en.wikipedia.org/wiki/Optical_character_recognition) and [Tensorflow](https://www.tensorflow.org/).
 The primary purpose of Mav is to find alt tags for images using base64 data.

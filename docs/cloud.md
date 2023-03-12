@@ -1,27 +1,27 @@
 ---
-description: Getting started with A11yWatch cloud.
+description: Getting started with WCAT-Scanner cloud.
 id: cloud
-title: A11yWatch Cloud
+title: WCAT-Scanner Cloud
 ---
 
-# Getting Started with A11yWatch Cloud
+# Getting Started with WCAT-Scanner Cloud
 
-This guide walks you through setting up A11yWatch Cloud and connecting your A11yWatch project to your application.
+This guide walks you through setting up WCAT-Scanner Cloud and connecting your A11yWatch project to your application.
 
 ## Step 1
 
-First create an account from [a11ywatch.com/register](https://a11ywatch.com/register).
+First create an account from [wcat.dev/register](https://wcat.com/register).
 
 ## Step 2
 
-Navigate to the settings and setup custom configurations [a11ywatch.com/settings](https://a11ywatch.com/settings).
+Navigate to the settings and setup custom configurations [wcat.dev/settings](https://wcat.com/settings).
 
 ## Step 3
 
-Add a website to monitor on the dashboard at [a11ywatch.com/dashboard](https://a11ywatch.com/dashboard).
+Add a website to monitor on the dashboard at [wcat.dev/dashboard](https://wcat.com/dashboard).
 
 ## Step 4
 
-Try out A11yWatch Cloud
+Try out WCAT-Scanner Cloud
 
-Now you can navigate around and test out your website or connect your application to [A11yWatch Cloud API](https://a11ywatch.com/api-info).
+Now you can navigate around and test out your website or connect your application to [WCAT-Scanner Cloud API](https://wcat.dev/api-info).

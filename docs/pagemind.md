@@ -1,12 +1,12 @@
 ---
 id: pagemind
 title: Pagemind
-description: The A11yWatch accessibility engine for the cloud.
+description: The WCAT-Scanner accessibility engine for the cloud.
 ---
 
-[View Repo](https://github.com/a11ywatch/pagemind)
+[View Repo](https://github.com/wcat/pagemind)
 
-Pagemind is the core for accessiblity and insights engine for A11yWatch. It uses puppeteer to run headless chrome test against websites.
+Pagemind is the core for accessiblity and insights engine for WCAT-Scanner. It uses puppeteer to run headless chrome test against websites.
 
 ## Getting Started
 
@@ -14,7 +14,7 @@ Pagemind is the core for accessiblity and insights engine for A11yWatch. It uses
 docker-compose up
 ```
 
-Pagemind uses [litpa11y](https://github.com/a11ywatch/a11y) a very fast accessibility runner about 10,000 times faster than the alternatives. Created for the needs of a web server.
+Pagemind uses [litpa11y](https://github.com/wcat/a11y) a very fast accessibility runner about 10,000 times faster than the alternatives. Created for the needs of a web server.
 
 ## Features
 

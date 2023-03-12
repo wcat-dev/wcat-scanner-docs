@@ -5,9 +5,9 @@ title: Command Line Options
 sidebar_label: CLI
 ---
 
-[View Repo](https://github.com/a11ywatch/a11ywatch/tree/main/cli)
+[View Repo](https://github.com/wcat/a11ywatch/tree/main/cli)
 
-The A11yWatch CLI is an easy way to get started with running, deploying, and testing web accessibility.
+The WCAT-Scanner CLI is an easy way to get started with running, deploying, and testing web accessibility.
 
 ## Pre-requisites
 
@@ -27,22 +27,22 @@ apt-get update && apt upgrade -y && apt-get install -y --no-install-recommends b
 
 You can get the CLI using [`cargo`](https://doc.rust-lang.org/cargo/commands/cargo-install.html) or [npm](https://nodejs.org/en/download/).
 
-1. `cargo install a11ywatch_cli`
+1. `cargo install wcat_cli`
    or
-1. `npm i a11ywatch-cli -g`
+1. `npm i wcat-cli -g`
 
 
 ## CLI Commands
 
-You can run the `a11ywatch -h` command to get all the options and details for the CLI.
+You can run the `wcat -h` command to get all the options and details for the CLI.
 
 ```sh
-a11ywatch_cli 0.8.23
-j-mendez <jeff@a11ywatch.com>
-A11yWatch web accessibility CLI.
+wcat_cli 0.8.23
+j-mendez <jeff@wcat.dev>
+WCAT-Scanner web accessibility CLI.
 
 USAGE:
-    a11ywatch [OPTIONS] [SUBCOMMAND]
+    wcat [OPTIONS] [SUBCOMMAND]
 
 OPTIONS:
     -f, --find-results
@@ -107,16 +107,16 @@ To get started scanning your website with the CLI run the following commands.
 
 ```sh
 # pass -f option to start with the front-end
-a11ywatch start
+wcat start
 # single page scan and store results
-a11ywatch scan --url https://a11ywatch.com -s
+wcat scan --url https://wcat.dev -s
 # full multi site crawl
-a11ywatch crawl --url https://a11ywatch.com -s -d
+wcat crawl --url https://wcat.dev -s -d
 # full site wide crawl with subdomains and TLDS
-a11ywatch crawl --url https://a11ywatch.com -s -d --subdomains --tld
+wcat crawl --url https://wcat.dev -s -d --subdomains --tld
 ```
 
-If you want to display detailed reports on the last scan run `a11ywatch --results-parsed-list`, the prior run also needs the `-s` flag to store results. This will bring up the last scan with pass/fail reports for each page.
+If you want to display detailed reports on the last scan run `wcat --results-parsed-list`, the prior run also needs the `-s` flag to store results. This will bring up the last scan with pass/fail reports for each page.
 
 Use the `-d` flag in order to enable real time log output of pages completed.
 
@@ -127,5 +127,5 @@ The command line gives you the ability to get code fixes right into your project
 Run the following:
 
 ```sh
-a11ywatch crawl --url https://a11ywatch.com -s -d --fix
+wcat crawl --url https://wcat.dev -s -d --fix
 ```

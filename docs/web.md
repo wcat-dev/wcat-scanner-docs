@@ -1,10 +1,10 @@
 ---
-description: The A11yWatch web litemode application getting started page.
+description: The WCAT-Scanner web litemode application getting started page.
 id: web
 title: Web
 ---
 
-[View Repo](https://github.com/a11ywatch/web)
+[View Repo](https://github.com/wcat/web)
 
 This web project uses [next.js](https://nextjs.org/) to leverage SSG/SSR context with apollo and Rust to compile custom DS via wasm. 
 
@@ -31,7 +31,7 @@ STRIPE_KEY=
 SCRIPTS_CDN_URL_HOST=http://localhost:8090/cdn
 CDN_URL_HOST=
 CDN=
-DOMAIN_NAME=https://a11ywatch.com
+DOMAIN_NAME=https://wcat.dev
 GOOGLE_CLIENT_ID=
 INTERCOM_APPID=
 INTERCOM_ENABLED=true

@@ -12,7 +12,7 @@ const features = [
     imageUrl: "img/undraw_maintenance.svg",
     description: (
       <>
-        A11yWatch was designed from the ground up to be easily installed and
+        WCAT-Scanner was designed from the ground up to be easily installed and
         used to get your website up and running quickly.
       </>
     ),
@@ -22,7 +22,7 @@ const features = [
     imageUrl: "img/undraw_pedestrian_crossing.svg",
     description: (
       <>
-        A11yWatch lets you focus on your development, and we&apos;ll do the
+        WCAT-Scanner lets you focus on your development, and we&apos;ll do the
         chores. Get notified instantly as new issues occur on your website.
       </>
     ),
@@ -32,7 +32,7 @@ const features = [
     imageUrl: "img/undraw_web_browsing.svg",
     description: (
       <>
-        Extend or customize your website layout by reusing React. A11yWatch can
+        Extend or customize your website layout by reusing React. WCAT-Scanner can
         be extended and customized, use the services you need to help your use
         case.
       </>

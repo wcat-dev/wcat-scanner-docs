@@ -4,7 +4,7 @@ id: chrome
 title: Chrome
 ---
 
-[View Repo](https://github.com/a11ywatch/chrome)
+[View Repo](https://github.com/wcat/chrome)
 
 We use a custom Rust web server to manage chrome usage headlessly.
 

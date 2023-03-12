@@ -17,25 +17,25 @@ If you want to use docker you can skip the NodeJS and Rust install.
 
 First, you must checkout all repos into the same directory. Some of these repos are optional, but checking them all out allows you to hop around the code more easily. If you are not going to develop you can use docker compose to run the images.
 
-Create a root directory for all of the files ex: `mkdir a11ywatch_project && cd a11ywatch_project`.
+Create a root directory for all of the files ex: `mkdir wcat_project && cd a11ywatch_project`.
 
 
 Clone all the repositories (or only the required ones).
 
 ```sh
-git clone https://github.com/a11ywatch/a11ywatch.git
-git clone https://github.com/a11ywatch/a11ywatch-core.git
-git clone https://github.com/a11ywatch/pagemind.git
-git clone https://github.com/a11ywatch/web.git
-git clone https://github.com/a11ywatch/chrome.git
-git clone https://github.com/a11ywatch/mav.git
-git clone https://github.com/a11ywatch/crawler.git
+git clone https://github.com/wcat/a11ywatch.git
+git clone https://github.com/wcat/a11ywatch-core.git
+git clone https://github.com/wcat/pagemind.git
+git clone https://github.com/wcat/web.git
+git clone https://github.com/wcat/chrome.git
+git clone https://github.com/wcat/mav.git
+git clone https://github.com/wcat/crawler.git
 ```
 
 Navigate to primary repo for main setup and start.
 
 ```sh
-cd a11ywatch
+cd wcat
 ```
 
 ### Docker

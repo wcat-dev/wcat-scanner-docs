@@ -19,13 +19,13 @@ To generate your own status badge, you will need to know and substitute the foll
 mardown:
 
 ```markdown
-[![WCAT-Scanner](https://api.wcat.dev/status/wcat.com)](https://a11ywatch.com/reports/a11ywatch.com)
+[![WCAT-Scanner](https://api.wcat.dev/status/wcat.dev)](https://wcat.dev/reports/wcat.dev)
 ```
 
 html:
 
 ```html
-<a href="https://wcat.dev/reports/wcat.com"
-  ><img src="https://api.wcat.dev/status/wcat.com"
+<a href="https://wcat.dev/reports/wcat.dev"
+  ><img src="https://api.wcat.dev/status/wcat.dev"
 /></a>
 ```

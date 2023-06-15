@@ -5,7 +5,7 @@ title: Command Line Options
 sidebar_label: CLI
 ---
 
-[View Repo](https://github.com/wcat/a11ywatch/tree/main/cli)
+[View Repo](https://github.com/wcat-org/wcat-scanner/tree/main)
 
 The WCAT-Scanner CLI is an easy way to get started with running, deploying, and testing web accessibility.
 
@@ -38,7 +38,7 @@ You can run the `wcat -h` command to get all the options and details for the CLI
 
 ```sh
 wcat_cli 0.8.23
-j-mendez <jeff@wcat.dev>
+admin <admin@wcat.dev>
 WCAT-Scanner web accessibility CLI.
 
 USAGE:

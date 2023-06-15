@@ -1,15 +1,15 @@
 ---
-description: Need to make sure your website stays accessible? Host WCAT-Scanner on any CI using the A11yWatch Github Action or bare metal setups.
+description: Need to make sure your website stays accessible? Host WCAT-Scanner on any CI using the wcat-tools Github Action or bare metal setups.
 id: ci
 title: Continuous Integration
 sidebar_label: CI
 ---
 
-Using WCAT-Scanner on the CI can be done with the CLI. This can also be handled using the [Github Action](https://github.com/A11yWatch/github-action) or [Circle CI Orb](https://github.com/A11yWatch/circleci-orb).
+Using WCAT-Scanner on the CI can be done with the CLI. This can also be handled using the [Github Action](https://github.com/wcat-tools/github-action) or [Circle CI Orb](https://github.com/wcat-tools/circleci-orb).
 
 ## [Github Actions](https://github.com/marketplace/actions/web-accessibility-evaluation)
 
-[WCAT-Scanner Github Action](https://github.com/A11yWatch/github-action)
+[WCAT-Scanner Github Action](https://github.com/wcat-tools/github-action)
 
 WCAT-Scanner comes with a github action that gives you real results across your workflow before you ship to production.
 In the github action you can pass or fail PR's easily by configuring the `env` variables for your project.
@@ -32,15 +32,15 @@ Here is an example using the action to fail if 15 accessibility errors occur on 
 
 ## CircleCI
 
-Here is an example config using the WCAT-Scanner orb to scan a website for issues. You need to use a machine image since the A11yWatch system uses docker to run. Replace `to` with your website url.
+Here is an example config using the WCAT-Scanner orb to scan a website for issues. You need to use a machine image since the wcat-tools system uses docker to run. Replace `to` with your website url.
 You can also use the scan across `steps`. Just make sure to install the CLI with `cargo install wcat_cli` first if being used in the steps section. You can also use the CircleCI orb
-at `wcat/a11ywatch@dev:<<pipeline.git.revision>>` or view the [repo](https://github.com/WCAT-Scanner/circleci-orb).
+at `wcat/wcat@dev:<<pipeline.git.revision>>` or view the [repo](https://github.com/WCAT-Scanner/circleci-orb).
 
 ```yml
 version: 2.1
 orbs:
   codecov: codecov/codecov@1.0.2
-  wcat: a11ywatch/a11ywatch@dev:alpha
+  wcat: wcat/wcat@dev:alpha
 jobs:
   web:
     machine:
@@ -52,4 +52,4 @@ workflows:
           to: "https://wcat.dev"
 ```
 
-You can also use this [config](https://github.com/WCAT-Scanner/wcat/blob/main/.circleci/config.yml) as a template that the central A11yWatch repo uses.
+You can also use this [config](https://github.com/WCAT-Scanner/wcat/blob/main/.circleci/config.yml) as a template that the central wcat-tools repo uses.

@@ -8,11 +8,11 @@ Deploy all things WCAT-Scanner Lite on your own servers.
 
 ## Getting Started
 
-The quickest way to deploy the suite on the server is to install the `WCAT-Scanner` CLI by running `cargo install wcat_cli` on the server or in a Dockerfile and run the `a11ywatch start` command either in `CMD` or as a sidecar on your instance.
+The quickest way to deploy the suite on the server is to install the `WCAT-Scanner` CLI by running `cargo install wcat_cli` on the server or in a Dockerfile and run the `wcat-scanner start` command either in `CMD` or as a sidecar on your instance.
 
 ## Docker
 
-Another simple way to deploy is to use the [@wcat/a11ywatch](https://hub.docker.com/r/a11ywatch/a11ywatch) docker image. By the default the main entry to the graphQL, and gRPC server starts on port 3280.
+Another simple way to deploy is to use the [@wcat-dev/wcat-scanner](https://hub.docker.com/r/wcat-scanner/wcat-scanner) docker image. By the default the main entry to the graphQL, and gRPC server starts on port 3280.
 
 ## CLI
 

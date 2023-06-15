@@ -11,7 +11,7 @@ The section below is for self-hosting our suite on your server and managing your
 
 ## Docker
 
-A simple way to get started with the suite is to use docker. You can use the [@wcat/a11ywatch](https://hub.docker.com/r/a11ywatch/a11ywatch) image to deploy the fully managed suite across linux, windows, and macOS. By the default the main entry to the graphQL, and gRPC server starts on port 3280. You can also use the gRPC instances directly following the [protobuf def here](https://github.com/a11ywatch/a11ywatch/tree/main/clients/src/proto). You can also install the suite by using the individual [images seperately](https://github.com/a11ywatch/a11ywatch/blob/main/docker/docker-compose.production.yml).
+A simple way to get started with the suite is to use docker. You can use the [@wcat-dev/wcat-scanner](https://hub.docker.com/r/wcat-dev/wcat-scanner) image to deploy the fully managed suite across linux, windows, and macOS. By the default the main entry to the graphQL, and gRPC server starts on port 3280. You can also use the gRPC instances directly following the [protobuf def here](https://github.com/wcat-scanner/wcat-scanner/tree/main/clients/src/proto). You can also install the suite by using the individual [images seperately](https://github.com/wcat-scanner/wcat-scanner/blob/main/docker/docker-compose.production.yml).
 
 Example with docker compose of the configuration.
 
@@ -19,7 +19,7 @@ Example with docker compose of the configuration.
 version: "3.9"
 services:
   wcat:
-    image: wcat/a11ywatch
+    image: wcat-dev/wcat-scanner
     ports:
       - 3280:3280
 ```
@@ -69,29 +69,29 @@ wcat crawl --url https://wcat.dev -S -t > results.json
 
 ## K8
 
-We check in the k8 [files here to use](https://github.com/wcat/a11ywatch/tree/main/kubernetes).
+We check in the k8 [files here to use](https://github.com/wcat/wcat-scanner/tree/main/kubernetes).
 
 ## Javascript
 
-You can also start the entire suite using any javascript runtime like [nodejs](https://nodejs.org/en/) or [bun](https://bun.sh/) using the `@wcat/a11ywatch` module.
+You can also start the entire suite using any javascript runtime like [nodejs](https://nodejs.org/en/) or [bun](https://bun.sh/) using the `@wcat-dev/wcat-scanner` module.
 
 ```sh
 # node
-npm i @wcat/a11ywatch
+npm i @wcat-dev/wcat-scanner
 # bun - needs npm i puppeteer first due to chrome being skipped in bun installation. You can skip the puppeteer install if you already have a chrome instance to connect to.
 npm i puppeteer && bun install
 ```
 
 ```ts
 // import in your file
-import "@wcat/a11ywatch";
+import "@wcat-dev/wcat-scanner";
 ```
 
 or run process outside of a script.
 
 ```sh
 # node
-node ./node_modules/@wcat/a11ywatch/server.js
+node ./node_modules/@wcat-dev/wcat-scanner/server.js
 # bun
-bun run ./node_modules/@wcat/a11ywatch/server.js
+bun run ./node_modules/@wcat-dev/wcat-scanner/server.js
 ```

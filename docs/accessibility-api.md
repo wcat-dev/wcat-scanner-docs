@@ -6,10 +6,6 @@ title: Accessibility API Reference
 
 The WCAT-Scanner Accessibility API can be used to gather multi page and cross domain vitals and other custom events. This is useful when trying to keep multi pages on a website inclusive using real browsers and workflows that cannot be detected simply by linting.
 
-In most cases we recommend installing WCAT-Scanner through one of the [OpenAPI clients](https://gitlab.com/j-mendez/wcat-clients) or [the sidecar](https://github.com/a11ywatch/sidecar). However, if there's no easy way for you to integrate with A11yWatch, you can still do so by sending events directly to the API.
-
-For a detailed document of the API visit [WCAT-Scanner API Page](https://wcat.dev/api-info)
-
 ## Endpoints
 
 Replace `http://localhost:3280` with `https://api.wcat.dev` if using our main enterprise remote service.

@@ -4,7 +4,7 @@ id: api
 title: API
 ---
 
-[View Repo](https://github.com/wcat/a11ywatch-core)
+[View Repo](https://github.com/wcat-org/wcat-tools)
 
 The core API gateway for WCAT-Scanner lite.
 

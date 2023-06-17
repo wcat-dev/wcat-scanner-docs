@@ -6,7 +6,7 @@ module.exports = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "wcat-org",
+  organizationName: "wcat-dev",
   projectName: "docs",
   trailingSlash: true,
   themeConfig: {
@@ -25,7 +25,7 @@ module.exports = {
           position: "left",
         },
         {
-          href: "https://github.com/wcat-org/wcat-scanner-docs",
+          href: "https://github.com/wcat-dev/wcat-scanner-docs",
           label: "GitHub",
           position: "right",
         },
@@ -60,7 +60,7 @@ module.exports = {
             },
             {
               label: "Twitter",
-              href: "https://twitter.com/wcat-org",
+              href: "https://twitter.com/wcat-dev",
             },
           ],
         },
@@ -88,11 +88,11 @@ module.exports = {
         docs: {
           routeBasePath: "documentation",
           sidebarPath: require.resolve("./src/sidebars.js"),
-          editUrl: "https://github.com/wcat-org/wcat-scanner-docs/edit/main",
+          editUrl: "https://github.com/wcat-dev/wcat-scanner-docs/edit/main",
         },
         blog: {
           showReadingTime: true,
-          editUrl: "https://github.com/wcat-org/wcat-scanner-docs/edit/main",
+          editUrl: "https://github.com/wcat-dev/wcat-scanner-docs/edit/main",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),

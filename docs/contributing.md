@@ -17,13 +17,13 @@ If you want to use docker you can skip the NodeJS and Rust install.
 
 First, you must checkout all repos into the same directory. Some of these repos are optional, but checking them all out allows you to hop around the code more easily. If you are not going to develop you can use docker compose to run the images.
 
-Create a root directory for all of the files ex: `mkdir wcat_project && cd wcat-tools_project`.
+Create a root directory for all of the files ex: `mkdir wcat_project && cd wcat-scanner_project`.
 
 
 Clone all the repositories (or only the required ones).
 
 ```sh
-git clone https://github.com/wcat-org/wcat-tools.git
+git clone https://github.com/wcat-dev/wcat-scanner.git
 ```
 
 Navigate to primary repo for main setup and start.

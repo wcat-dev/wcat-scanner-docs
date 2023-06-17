@@ -5,7 +5,7 @@ title: Command Line Options
 sidebar_label: CLI
 ---
 
-[View Repo](https://github.com/wcat-org/wcat-scanner/tree/main)
+[View Repo](https://github.com/wcat-dev/wcat-scanner/tree/main)
 
 The WCAT-Scanner CLI is an easy way to get started with running, deploying, and testing web accessibility.
 

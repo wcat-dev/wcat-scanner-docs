@@ -4,7 +4,7 @@ id: api
 title: API
 ---
 
-[View Repo](https://github.com/wcat-org/wcat-tools)
+[View Repo](https://github.com/wcat-dev/wcat-scanner)
 
 The core API gateway for WCAT-Scanner lite.
 
